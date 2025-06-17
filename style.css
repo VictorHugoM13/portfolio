@@ -89,6 +89,24 @@ h2 {
     margin-bottom: 20px;
     border-left: 5px solid #3498db;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.projeto:hover {
+    transform: scale(1.015);
+}
+
+#projetos a {
+    text-decoration: none;
+    color: white;
+}
+
+form input{
+    transition: transform 0.15s ease;
+}
+
+form textarea:hover, input:hover {
+    transform: scale(1.015);
 }
 
 form input, form textarea {
